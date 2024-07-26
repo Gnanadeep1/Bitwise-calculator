@@ -1,0 +1,110 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    background-image: url("WhatsApp Image 2024-07-26 at 17.29.14_65459d71.jpg");
+}
+
+.container {
+    padding: 20px;
+    /* border: 2px solid black; */
+
+}
+
+input {
+
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 2px solid rgb(233, 228, 225);
+}
+
+button {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    border: 2px solid rgb(238, 232, 229);
+    background-color: rgb(33, 27, 27);
+    color: white;
+    border-radius: 50%;
+
+}
+
+/* .equal {
+    background-color: rgb(255, 106, 0);
+}
+.equal:hover{
+    background-color: rgb(255, 106, 0);
+    cursor: pointer;
+    opacity: 0.8;
+} */
+
+.ac.bs {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+button:hover {
+    /* background-color:grey; */
+    background-color: rgb(33, 27, 27);
+    width: 68px;
+    height: 68px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#btnn {
+    width: 200px;
+    height: 70px;
+    padding: 13px;
+    background-color: rgb(33, 27, 27);
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#btnn:hover {
+    background-color: rgb(33, 27, 27);
+    width: 195px;
+    height: 65px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@keyframes flip {
+    0% {
+        transform: rotateY(0);
+    }
+
+    50% {
+        transform: rotateY(180deg);
+    }
+
+}
+
+.flip {
+    animation: flip 1s forwards;
+}
+
+.hidden {
+    display: none;
+}
+
+.extrabtns {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.expanded {
+    width: 400px;
+    font-size: 40px;
+}
