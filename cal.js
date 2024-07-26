@@ -3,7 +3,7 @@ let btns = document.querySelectorAll('button');
 let btnsarr = Array.from(btns);
 let string = "";
 function forbackspace(str) {
-    const oprs = ['>>>', 'tws', 'set', 'zers', '+', '-', '*', '/', '%', '&', '|', '^', '~', '<<', '>>'];
+    const oprs = ['>>>', 'pow2', 'set', 'zers', '+', '-', '*', '/', '%', '&', '|', '^', '~', '<<', '>>'];
     for (let i of oprs) {
         if (str.endsWith(i)) {
             return str.slice(0, -i.length);
